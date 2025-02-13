@@ -13,7 +13,7 @@ API_HASH = getenv("API_HASH", "42a60d9c657b106370c79bb0a8ac560c")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","")
+OWNER_USERNAME = getenv("OWNER_USERNAME","#Krishna99887722")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME","")
 # --------------------------------------------------------
@@ -27,7 +27,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Krishna:pss968048@cluster0.
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", "5446367898"))
